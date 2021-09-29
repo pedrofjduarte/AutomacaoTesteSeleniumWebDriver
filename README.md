@@ -1,3 +1,3 @@
-#Selenium WebDriver
+# Selenium WebDriver
 
-###Projeto de automação de testes web, com Selenium WebDriver e Java.
+### Projeto de automação de testes web, com Selenium WebDriver e Java.
