@@ -1,6 +1,6 @@
 # language: pt
 
-  Funcionalidade: Receber desconta da qazando
+  Funcionalidade: Receber desconto da qazando
     Eu como usuário da qazando
     quero receber um cupom de desconto
     para comprar um curso com valor reduzido
