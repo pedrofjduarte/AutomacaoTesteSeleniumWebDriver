@@ -4,8 +4,9 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import support.Utils;
 
-public class HomePage {
+public class HomePage extends Utils {
 
     WebDriver driver;
 
@@ -15,6 +16,7 @@ public class HomePage {
 
     public void acessarAplicacao(){
         driver.get("http://qazando.com.br/");
+        esperarElementoEstarPresente(By.id("btn-ver-cursos"), 10);
         Assert.assertEquals("Não acessou a aplicação!", true, driver.findElement(By.id("btn-ver-cursos")).isDisplayed());
     }
 
