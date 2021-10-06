@@ -1,0 +1,3 @@
+Executar testes e gerar relatórios de testes via linha de comando:
+mvn test -Dtest=**/*RunCucumberTest cluecumber-report:reporting
+
