@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {},
+        plugin = {"json:target/reports/cucumberReport.json", "html:target/reports/"},
         features = "src/test/resources/features",
         tags = {"~@ignore"},
         glue = {"steps"}
